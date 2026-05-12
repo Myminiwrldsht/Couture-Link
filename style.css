@@ -11,5 +11,27 @@ body {
     padding: 20px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    
+
 }
+
+.header h1{
+    font-family: serif;
+    background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    color: transparent;
+    background-clip: text;
+    padding: 2px;
+    margin: 1px;
+
+}
+
+.header p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #432a52;
+    font-weight: 500;
+    padding: 1px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+
+}
+
