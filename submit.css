@@ -35,3 +35,32 @@ body {
     font-size:larger;
 
 }
+
+nav{
+    font-family: sans-serif;
+    font-weight: thin;
+    background-color: #dac0ea;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+
+
+}
+
+nav a{
+    text-decoration: none;
+    color: #ffff;
+    margin: 0 80px;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+
+nav a:hover{
+    background-color: #a18cd1;
+    color: #ffff;
+    transition: background-color 0.3s ease;
+}
+
+
