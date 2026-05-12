@@ -222,5 +222,14 @@ button:hover {
     color:#291f5f;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.1em;
-    
+
+}
+
+.footer{
+    background-color: transparent;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
