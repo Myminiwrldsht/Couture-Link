@@ -162,3 +162,10 @@ button:hover {
     width: 250px;
     text-align: center;
 }
+
+
+.polaroid:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(94, 70, 54, 0.18);
+    transition: all 0.3s ease;
+}
