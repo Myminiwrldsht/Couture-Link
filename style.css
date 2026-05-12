@@ -8,7 +8,7 @@ body {
 
 .header {
     background-color:#ffff;
-    padding: 20px;
+    padding: 0px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
@@ -35,3 +35,14 @@ body {
 
 }
 
+nav{
+    font-family: sans-serif;
+    font-weight: thin;
+    background-color: #dac0ea;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+
+
+}
