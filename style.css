@@ -11,6 +11,7 @@ body {
     padding: 0px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 
 }
 
@@ -31,7 +32,7 @@ body {
     padding: 1px;
     margin-top: 20px;
     margin-bottom: 50px;
-
+    font-size:larger;
 
 }
 
@@ -42,7 +43,7 @@ nav{
     padding: 10px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    
+    border-radius: 5px;
 
 
 }
