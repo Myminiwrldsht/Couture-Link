@@ -119,3 +119,12 @@ button:hover {
     margin-top: 50px;
     color:#4e7796;
 }
+
+.howitworks{
+    background: rgb(255, 255, 255);
+    padding: 2rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px rgba(6, 3, 46, 0.1);
+    
+}
