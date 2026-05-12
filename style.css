@@ -88,3 +88,11 @@ nav a:hover{
     color:#000000;
 }
 
+.cta-button {
+    display:block;
+    text-align: center;
+    margin: 30px auto;
+    padding: 10px 20px;
+    
+}
+
