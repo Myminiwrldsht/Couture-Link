@@ -78,8 +78,13 @@ nav a:hover{
     margin-top: 50px;
     color:#4e7796
     
-
 }
     
 
+.hero p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    color:#000000;
+}
 
