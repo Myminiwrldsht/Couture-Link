@@ -246,5 +246,10 @@ textarea {
     outline-color: #042239;
 }
 
-
+.submit-button {
+    display:block;
+    text-align: center;
+    margin: 30px auto;
+    padding: 10px 20px;
+}
 
