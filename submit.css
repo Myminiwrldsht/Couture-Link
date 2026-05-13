@@ -189,6 +189,24 @@ nav a:hover{
     max-width: 400px;
 }
 
+.measurements label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #042239;
+    display: block;
+    margin-top: 20px;
+
+}
+.measurements input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    outline-color: #042239;
+    
+}
+
 .container{
     display: flex;
     flex-direction: row;
