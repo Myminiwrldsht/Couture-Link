@@ -139,7 +139,6 @@ nav a:hover{
     margin-top: 30px;
 }
 
-
 .measurements{
     background: rgba(43, 120, 235, 0.034); 
     backdrop-filter: blur(12px); 
@@ -149,4 +148,15 @@ nav a:hover{
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2); 
     padding: 30px; 
     max-width: 400px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    align-items: flex-start;  
+    gap: 24px;                
+    padding: 40px 20px;
+    width: 100%;
+    box-sizing: border-box;
 }
