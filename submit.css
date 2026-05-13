@@ -100,6 +100,7 @@ nav a:hover{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #042239;
     margin-top: 30px;
+    text-align: center;
 }
 
 
@@ -112,6 +113,24 @@ nav a:hover{
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2); 
     padding: 30px; 
     max-width: 400px;
+}
+
+.userInfo label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #042239;
+    display: block;
+    margin-top: 20px;
+}
+
+.userInfo input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    outline-color: #042239;
+    
 }
 
 
@@ -160,3 +179,4 @@ nav a:hover{
     width: 100%;
     box-sizing: border-box;
 }
+
