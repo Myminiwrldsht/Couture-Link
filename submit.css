@@ -73,3 +73,10 @@ nav a:hover{
 }
 
 
+.hero h2{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #4e7796;
+    margin-top: 50px;
+}
+
