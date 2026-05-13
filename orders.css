@@ -73,6 +73,13 @@ nav a:hover{
 }
 
 
+
+
+.orders {
+    padding: 4rem 2rem;
+    background-color: #ffffff;
+}
+
 .orders h2{
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     text-align: center;
@@ -88,4 +95,12 @@ nav a:hover{
     margin-left: 20px;
     margin-right: 20px;
     color:#000000;
+    max-width: 600px;
 }
+
+.ordersGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
