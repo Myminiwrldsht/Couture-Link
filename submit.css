@@ -266,3 +266,10 @@ textarea {
     
 }
 
+button:hover {
+    background-color: transparent;
+    color: #4e7796;
+    border: 2px solid #ffffff;
+    transition: background-color 0.1s ease, color 0.1s ease;
+    
+}
