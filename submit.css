@@ -218,3 +218,26 @@ nav a:hover{
     box-sizing: border-box;
 }
 
+.additional h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4e7796;
+    margin-top: 30px;
+    text-align: center;
+}
+
+textarea {
+    display: block;         
+    margin: 20px auto;       
+    width: 100%;             
+    max-width: 600px;       
+    height: 120px;          
+    resize: none;            
+    box-sizing: border-box;  
+    border-radius: 16px;
+    padding: 15px;
+    font-family: inherit;
+    outline-color: #042239;
+}
+
+
+
