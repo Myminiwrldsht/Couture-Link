@@ -104,6 +104,16 @@ nav a:hover{
     gap: 2rem;
 }
 
+.orderCard h3 {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.orderCard p {
+    margin-bottom: 0.8rem;
+    line-height: 1.6;
+}
+
 .orderCard {
     background-color: #edf2f8;
     padding: 2rem;
@@ -111,5 +121,6 @@ nav a:hover{
     box-shadow: 0 8px 20px rgba(97, 70, 54, 0.12);
     transition: all 0.3s ease;
 }
+
 
 
