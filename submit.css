@@ -88,3 +88,10 @@ nav a:hover{
     margin-right: 20px;
     color:#000000;
 }
+
+.submission-container h2{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #4e7796;
+    margin-top: 50px;
+}
