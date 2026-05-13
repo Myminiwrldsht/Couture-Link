@@ -321,3 +321,12 @@ button:hover {
     transition: background-color 0.1s ease, color 0.1s ease;
     
 }
+
+.footer{
+    background-color: transparent;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
