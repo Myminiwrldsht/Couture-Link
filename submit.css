@@ -112,7 +112,10 @@ nav a:hover{
     border-radius: 16px; 
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2); 
     padding: 30px; 
-    max-width: 400px;
+    flex: 1;
+    max-width: 450px;
+    box-sizing: border-box;
+    
 }
 
 .userInfo label {
@@ -141,7 +144,7 @@ nav a:hover{
     text-align: center;
 }
 
-.outfifitInspo label {
+.outfitInspo label {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #042239;
     display: block;
@@ -168,7 +171,9 @@ nav a:hover{
     border-radius: 16px; 
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2); 
     padding: 30px; 
-    max-width: 550px;
+    flex: 1;
+    box-sizing: border-box;
+    max-width: 450px;
 }
 
 
@@ -186,7 +191,9 @@ nav a:hover{
     border-radius: 16px; 
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2); 
     padding: 30px; 
-    max-width: 400px;
+    flex: 1;
+    max-width: 450px;
+    box-sizing: border-box;
 }
 
 .measurements label {
