@@ -89,9 +89,16 @@ nav a:hover{
     color:#000000;
 }
 
-.submission-container h2{
+.submission h2{
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     text-align: center;
     color: #4e7796;
     margin-top: 50px;
 }
+
+.userInfo h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1e94ee;
+    margin-top: 30px;
+}
+
