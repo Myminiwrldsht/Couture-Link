@@ -98,7 +98,19 @@ nav a:hover{
 
 .userInfo h3{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #1e94ee;
+    color: #042239;
     margin-top: 30px;
+}
+
+
+.userInfo{
+    background: rgba(43, 120, 235, 0.034); 
+    backdrop-filter: blur(12px); 
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 16px; 
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2); 
+    padding: 30px; 
+    max-width: 400px;
 }
 
