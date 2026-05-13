@@ -114,6 +114,13 @@ nav a:hover{
     max-width: 400px;
 }
 
+
+.outfitInspo h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #042239;
+    margin-top: 30px;
+}
+
 .outfitInspo{
     background: rgba(43, 120, 235, 0.034); 
     backdrop-filter: blur(12px); 
