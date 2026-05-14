@@ -43,6 +43,26 @@ document.getElementById("submissionForm").addEventListener("submit", function(ev
     console.log("Hips:", hips);
     console.log("Height:", height);
 
+//LOCAL STORAGE: Saves the form data to the browser's local storage, allowing it to be accessed later in the order's page.
+    let orderData = {
+        name: name,
+        email: email,
+        phone: phone,
+        inspo: inspo,
+        style: style,
+        occasion: occasion,
+        color: color,
+        fabric: fabric,
+        bust: bust,
+        waist: waist,
+        hips: hips,
+        height: height
+    };
+    let existingOrders = JSON.parse(localStorage.getItem("orders")) || []; // Retrieves existing orders or initializes an empty array if none exist.
+    existingOrders.push(orderData); // Adds the new order data to the existing orders array.
+    localStorage.setItem("orders", JSON.stringify(existingOrders)); // Saves the updated array back to localStorage.
+
+    console.log("Order saved to localStorage:", orderData);
 
     //If everything is valid, proceed with submission by displaying a confirmation message to the user.
     document.getElementById("submissionForm").style.display = "none"; // Hides the form after submission.
