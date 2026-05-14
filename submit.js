@@ -5,5 +5,6 @@ document.getElementById("submissionForm").addEventListener("submit", function(ev
     //Prevents the browser's default form submission, lets JS habdle it.
     event.preventDefault()
     
+    
 }); 
 
