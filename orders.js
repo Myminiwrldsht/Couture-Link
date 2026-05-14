@@ -29,7 +29,7 @@ if (orders.length === 0){
         orderCard.classList.add("orderCard", "pending");
 
         //Set the innerHTML of the order card to display the order details.
-        card.innerHTML = `
+        orderCard.innerHTML = `
             <h3>Order #${order.id}</h3>
             <p><strong>Name:</strong> ${order.name}</p>
             <p><strong>Email:</strong> ${order.email}</p>
