@@ -1,4 +1,4 @@
-# Couture_link
+# Couture_Link
 
 ## Project Name
 
@@ -26,20 +26,20 @@ This project was built as a final project for a Software Development Foundations
 
 | Page | Description |
 |------|-------------|
-| `index.html` | Homepage with featured inspirations and how it works section |
-| `submit.html` | Form page for submitting a new custom order |
-| `orders.html` | Orders page that displays submitted orders dynamically |
+| `index.html` | Homepage with featured inspirations and how it works section. |
+| `submit.html` | Form page for submitting a new custom order. |
+| `orders.html` | Orders page that displays submitted orders dynamically. |
 
 ---
 
 ## Features
 
-- **Custom Order Form** — collect personal info, outfit inspirations, style preferences, and body measurements
-- **Form Validation** — JavaScript validation checks all fields before submission
--**localStorage** — submitted orders are saved to the browser and retrieved on the orders page
--**Dynamic Order Cards** — orders are generated and displayed dynamically using JavaScript DOM manipulation
--**Responsive Design** — media queries for tablet (768px) and mobile (480px) screens
--**Glassmorphism UI** — modern frosted glass styling on form sections and confirmation message
+- **Custom Order Form** — collect personal info, outfit inspirations, style preferences, and body measurements.
+- **Form Validation** — JavaScript validation checks all fields before submission.
+-**localStorage** — submitted orders are saved to the browser and retrieved on the orders page.
+-**Dynamic Order Cards** — orders are generated and displayed dynamically using JavaScript DOM manipulation.
+-**Responsive Design** — media queries for tablet (768px) and mobile (480px) screens.
+-**Glassmorphism UI** — modern frosted glass styling on form sections and confirmation message.
 
 ---
 
@@ -47,39 +47,39 @@ This project was built as a final project for a Software Development Foundations
 
 | Technology | Purpose |
 |------------|---------|
-| HTML5 | Page structure and semantic markup |
-| CSS3 | Styling, flexbox, grid, and glassmorphism effects |
-| Vanilla JavaScript | DOM manipulation, event handling, form validation, localStorage |
-| GitHub Pages | Deployment and hosting |
+| HTML5 | Page structure and semantic markup. |
+| CSS3 | Styling, flexbox, grid, and glassmorphism effects. |
+| Vanilla JavaScript | DOM manipulation, event handling, form validation, localStorage. |
+| GitHub Pages | Deployment and hosting. |
 
 ---
 
 ## JavaScript Concepts Used
 
-- `addEventListener` — listens for form submission events
-- `event.preventDefault()` — prevents default browser form behaviour
-- `localStorage.setItem / getItem` — saves and retrieves order data
-- `JSON.stringify / JSON.parse` — converts data for storage and retrieval
-- `document.createElement` — dynamically creates order cards
-- `forEach` — loops through orders array to render cards
-- `array.slice(-5)` — limits displayed orders to the 5 most recent
+- `addEventListener` — listens for form submission events.
+- `event.preventDefault()` — prevents default browser form behaviour.
+- `localStorage.setItem / getItem` — saves and retrieves order data.
+- `JSON.stringify / JSON.parse` — converts data for storage and retrieval.
+- `document.createElement` — dynamically creates order cards.
+- `forEach` — loops through orders array to render cards.
+- `array.slice(-5)` — limits displayed orders to the 5 most recent.
 
 ---
 
 ## Known Bugs
 
--**Error messages** — inline field-level error messages are not fully implemented; validation currently uses a browser `alert()` instead of styled error messages per field
--**Order status** — order progress (Pending → In Progress → Completed) cannot currently be updated by the user; all orders display as "Pending" by default
+-**Error messages** — inline field-level error messages are not fully implemented; validation currently uses a browser `alert()` instead of styled error messages per field.
+-**Order status** — order progress (Pending → In Progress → Completed) cannot currently be updated by the user; all orders display as "Pending" by default.
 
 ---
 
 ## Future Improvements
 
-- [ ] Styled inline error messages per form field
-- [ ] Order status update functionality
-- [ ] Delete individual orders
-- [ ] Filter orders by status
-- [ ] Backend integration to persist data beyond the browser
+- [ ] Styled inline error messages per form field.
+- [ ] Order status update functionality.
+- [ ] Delete individual orders.
+- [ ] Filter orders by status.
+- [ ] Backend integration to persist data beyond the browser.
 
 ---
 
