@@ -45,6 +45,7 @@ document.getElementById("submissionForm").addEventListener("submit", function(ev
 
 //LOCAL STORAGE: Saves the form data to the browser's local storage, allowing it to be accessed later in the order's page.
     let orderData = {
+        id: Date.now(), // Generates a unique ID based on the current timestamp.
         name: name,
         email: email,
         phone: phone,
