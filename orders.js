@@ -18,10 +18,14 @@ if (orders.length === 0){
     document.querySelector(".noOrders").style.display = "none";
     
 
-    //Loops through the orders array and create a card for each order.
-    //ForEach is used to loop through the orders array one by one and create a card for each order.
-    orders.forEach(function(order) {
 
+    // Get only the last 5 orders to display
+    let recentOrders = orders.slice(-5);
+
+    // Loop through the recent orders and create a card for each.
+    recentOrders.forEach(function(order) {
+
+        
         //Create a new div element for the order card.
         const orderCard = document.createElement("div");
 
@@ -41,6 +45,8 @@ if (orders.length === 0){
 
         //Add the card to the ordersGrid div.
         ordersGrid.appendChild(orderCard);
+
+
 
     });
 }
