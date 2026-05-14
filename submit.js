@@ -5,8 +5,6 @@ document.getElementById("submissionForm").addEventListener("submit", function(ev
     //Prevents the browser's default form submission, lets JS habdle it.
     event.preventDefault()
 
-    //clears all form fields after submission, so the form is reset and ready for a new entry.
-    document.getElementById("SubmissionForm").reset();
     
 
     //Retrieves input values from the form, trims accidental spaces before/after texts, and stores them in variables for later use.
@@ -53,7 +51,8 @@ document.getElementById("submissionForm").addEventListener("submit", function(ev
     existingOrders.push(orderData); // Adds the new order data to the existing orders array.
     localStorage.setItem("orders", JSON.stringify(existingOrders)); // Saves the updated array back to localStorage.
 
-
+    //clears all form fields after submission, so the form is reset and ready for a new entry.
+    document.getElementById("submissionForm").reset();
 
     //If everything is valid, proceed with submission by displaying a confirmation message to the user.
     document.getElementById("submissionForm").style.display = "none"; // Hides the form after submission.
