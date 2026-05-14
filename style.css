@@ -1,3 +1,98 @@
+/* TABLET */
+@media (max-width: 768px) {
+    
+    .header h1 {
+        font-size: 2em;
+    }
+
+    .header p {
+        font-size: 1em;
+        margin-bottom: 20px;
+    }
+
+    
+    nav a {
+        margin: 0 20px;
+    }
+
+    
+    .content {
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 2rem 1rem;
+    }
+
+    
+    .tailoredimg img {
+        width: 100%;
+    }
+
+    .tailoredtext {
+        max-width: 100%;
+        text-align: center;
+    }
+
+}
+
+/* MOBILE */
+    @media (max-width: 480px) {
+
+    
+    .header h1 {
+        font-size: 1.5em;
+    }
+
+    .header p {
+        font-size: 0.9em;
+    }
+
+    
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav a {
+        margin: 0;
+    }
+
+    
+    .hero h2 {
+        font-size: 1.3em;
+        margin-top: 30px;
+    }
+
+    .hero p {
+        font-size: 0.9em;
+        margin: 10px 15px;
+    }
+
+    
+    .howitworks {
+        margin: 1rem 0.5rem;
+        padding: 1rem;
+    }
+
+    
+    .polaroid {
+        width: 90%;
+    }
+
+
+    button {
+        font-size: 0.9em;
+        padding: 8px 16px;
+    }
+
+
+    .footer {
+        font-size: 0.85em;
+        margin-top: 20px;
+    }
+
+}
+
 body {
     background: none;
     font-family: 'Arial', sans-serif;
@@ -5,9 +100,6 @@ body {
     padding: 0;
     
 }
-
-
-
 
 .header {
     background-image: url('https://lens.usercontent.google.com/banana?agsi=CmdnbG9iYWw6OjAwMDA1NWNmZWM3MDAyNmQ6MDAwMDAwZWI6MTo0ODAzYzhkYTk0MDk5ZTVkOjAwMDA1NWNmZWM3MDAyNmQ6MDAwMDAyOGI2NmIwMzM2ODowMDA2NTE5ZTQ5M2YzOGNmEAIYAQ==');
