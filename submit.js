@@ -4,6 +4,9 @@ document.getElementById("submissionForm").addEventListener("submit", function(ev
     
     //Prevents the browser's default form submission, lets JS habdle it.
     event.preventDefault()
+
+    //clears all form fields after submission, so the form is reset and ready for a new entry.
+    document.getElementById("SubmissionForm").reset();
     
 
     //Retrieves input values from the form, trims accidental spaces before/after texts, and stores them in variables for later use.
@@ -29,19 +32,6 @@ document.getElementById("submissionForm").addEventListener("submit", function(ev
         return; // Stops the function from continuing, so the form won't be submitted.
     }
 
-    console.log("Form submitted with values:");
-    console.log("Name:", name);
-    console.log("Email:", email);
-    console.log("Phone:", phone);
-    console.log("Inspiration:", inspo);
-    console.log("Style:", style);
-    console.log("Occasion:", occasion);
-    console.log("Color:", color);
-    console.log("Fabric:", fabric);
-    console.log("Bust:", bust);
-    console.log("Waist:", waist);
-    console.log("Hips:", hips);
-    console.log("Height:", height);
 
 //LOCAL STORAGE: Saves the form data to the browser's local storage, allowing it to be accessed later in the order's page.
     let orderData = {
@@ -63,7 +53,7 @@ document.getElementById("submissionForm").addEventListener("submit", function(ev
     existingOrders.push(orderData); // Adds the new order data to the existing orders array.
     localStorage.setItem("orders", JSON.stringify(existingOrders)); // Saves the updated array back to localStorage.
 
-    console.log("Order saved to localStorage:", orderData);
+
 
     //If everything is valid, proceed with submission by displaying a confirmation message to the user.
     document.getElementById("submissionForm").style.display = "none"; // Hides the form after submission.
