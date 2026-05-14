@@ -16,7 +16,7 @@ document.getElementById("submissionForm").addEventListener("submit", function(ev
     let occasion=document.getElementById("occasion").value.trim();
     let color=document.getElementById("color").value.trim();
     let fabric=document.getElementById("fabric").value.trim();
-    let bust=documentgetElementById("bust").value.trim();
+    let bust=document.getElementById("bust").value.trim();
     let waist=document.getElementById("waist").value.trim();
     let hips=document.getElementById("hips").value.trim();
     let height=document.getElementById("height").value.trim();
