@@ -6,7 +6,7 @@ let orders = JSON.parse(localStorage.getItem("orders")) || [];
 const ordersGrid = document.querySelector(".ordersGrid");
 
 //Check if there are any orders
-if (orders.length === 0){
+if (orders.length === 0) {
 
     //If there are no orders, show the noOrder section.
     document.querySelector(".noOrders").style.display = "block";
@@ -16,16 +16,16 @@ if (orders.length === 0){
 
     //If there are no orders, hide the noOrder section.
     document.querySelector(".noOrders").style.display = "none";
-    
+
 
 
     // Get only the last 5 orders to display
     let recentOrders = orders.slice(-5);
 
     // Loop through the recent orders and create a card for each.
-    recentOrders.forEach(function(order) {
+    recentOrders.forEach(function (order) {
 
-        
+
         //Create a new div element for the order card.
         const orderCard = document.createElement("div");
 

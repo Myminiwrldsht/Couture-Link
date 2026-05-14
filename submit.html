@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Couture Link | Pinterest-inspired tailoring website</title>
     <link rel="stylesheet" href="submit.css">
 </head>
+
 <body>
     <div class="header">
         <h1>Couture Link</h1>
         <p>Connecting you with skilled tailors for your custom clothing needs</p>
         <nav>
-            <a href="index.html">Home</a> 
-            <a href="submit.html">Submit Requests</a> 
+            <a href="index.html">Home</a>
+            <a href="submit.html">Submit Requests</a>
             <a href="orders.html">Orders</a>
         </nav>
     </div>
@@ -20,7 +22,8 @@
     <div class="hero">
         <h2>Start Your Custom Order</h2>
         <p>
-            Upload your Pinterest fashion inspirations and provide details about your desired outfit to get started on your custom order. Our skilled tailors will work closely with you to bring your vision to life.
+            Upload your Pinterest fashion inspirations and provide details about your desired outfit to get started on
+            your custom order. Our skilled tailors will work closely with you to bring your vision to life.
         </p>
     </div>
 
@@ -30,69 +33,71 @@
 
             <form id="submissionForm">
 
-            <div class="container">
+                <div class="container">
 
-                <div class="userInfo">
-                    <h3>Personal Information</h3>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name"  ><br><br>
+                    <div class="userInfo">
+                        <h3>Personal Information</h3>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name"><br><br>
 
-                <label for="user-email">Email:</label>
-                <input type="email" id="user-email" name="user-email" ><br><br> 
+                        <label for="user-email">Email:</label>
+                        <input type="email" id="user-email" name="user-email"><br><br>
 
-                <label for="phone">Phone Number:</label>
-                <input type="tel" id="phone" name="phone" placeholder="123-456-7890" ><br><br>
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="123-456-7890"><br><br>
 
-                </div>
+                    </div>
 
-            
-                <div class="outfitInspo">
-                    <h3>Outfit Inspirations</h3>
 
-                <label for="inspo">Upload your Pinterest fashion links:</label>
-                <input type="url" id="inspo" name="inspo" placeholder="https://www.pinterest.com/..." ><br><br>
+                    <div class="outfitInspo">
+                        <h3>Outfit Inspirations</h3>
 
-                <label for="style">Describe your desired style:</label>
-                <input type="text" id="style" name="style" placeholder="e.g., casual, formal, boho"><br><br>
+                        <label for="inspo">Upload your Pinterest fashion links:</label>
+                        <input type="url" id="inspo" name="inspo" placeholder="https://www.pinterest.com/..."><br><br>
 
-                <label for="occasion">Describe the occasion for which you need the outfit:</label>
-                <input type="text" id="occasion" name="occasion" placeholder="e.g., wedding, job interview, party" ><br><br>
+                        <label for="style">Describe your desired style:</label>
+                        <input type="text" id="style" name="style" placeholder="e.g., casual, formal, boho"><br><br>
 
-                <label for="color">Describe the colors you prefer:</label>
-                <input type="text" id="color" name="color" placeholder="e.g., red, black, pastel"><br><br>
+                        <label for="occasion">Describe the occasion for which you need the outfit:</label>
+                        <input type="text" id="occasion" name="occasion"
+                            placeholder="e.g., wedding, job interview, party"><br><br>
 
-                <label for="fabric">Describe the fabrics you prefer:</label>
-                <input type="text" id="fabric" name="fabric" placeholder="e.g., cotton, silk, denim" ><br><br>
+                        <label for="color">Describe the colors you prefer:</label>
+                        <input type="text" id="color" name="color" placeholder="e.g., red, black, pastel"><br><br>
 
-                </div>
+                        <label for="fabric">Describe the fabrics you prefer:</label>
+                        <input type="text" id="fabric" name="fabric" placeholder="e.g., cotton, silk, denim"><br><br>
 
-                <div class="measurements">
-                    <h3>Measurements</h3>
+                    </div>
 
-                    <label for="bust">Bust (inches):</label>
-                    <input type="number" id="bust" name="bust" placeholder="e.g., 34" ><br><br>
+                    <div class="measurements">
+                        <h3>Measurements</h3>
 
-                    <label for="waist">Waist (inches):</label>
-                    <input type="number" id="waist" name="waist" placeholder="e.g., 28" ><br><br>
+                        <label for="bust">Bust (inches):</label>
+                        <input type="number" id="bust" name="bust" placeholder="e.g., 34"><br><br>
 
-                    <label for="hips">Hips (inches):</label>
-                    <input type="number" id="hips" name="hips" placeholder="e.g., 36" ><br><br>
+                        <label for="waist">Waist (inches):</label>
+                        <input type="number" id="waist" name="waist" placeholder="e.g., 28"><br><br>
 
-                    <label for="height">Height (inches):</label>
-                    <input type="number" id="height" name="height" placeholder="e.g., 65"><br><br>
+                        <label for="hips">Hips (inches):</label>
+                        <input type="number" id="hips" name="hips" placeholder="e.g., 36"><br><br>
 
-                </div>
+                        <label for="height">Height (inches):</label>
+                        <input type="number" id="height" name="height" placeholder="e.g., 65"><br><br>
+
+                    </div>
 
                 </div>
 
                 <div class="additional">
                     <h3>Additional Notes</h3>
 
-                    <textarea id="additional-notes" name="additional-notes" rows="4" cols="50" placeholder="Provide any additional details or preferences for your outfit here..."></textarea><br><br>
+                    <textarea id="additional-notes" name="additional-notes" rows="4" cols="50"
+                        placeholder="Provide any additional details or preferences for your outfit here..."></textarea><br><br>
 
                     <div class="submit-button">
                         <button type="submit">Submit Request</button>
-                        </div>
+                    </div>
                 </div>
 
             </form>
@@ -101,24 +106,27 @@
 
     <div class="confirmation">
         <h2>Thank you for your submission!</h2>
-        <p>Your custom order request has been received. We will review your details and connect you with a skilled tailor who can bring your vision to life. You can expect to hear from us within 48 hours with the next steps.</p>
+        <p>Your custom order request has been received. We will review your details and connect you with a skilled
+            tailor who can bring your vision to life. You can expect to hear from us within 48 hours with the next
+            steps.</p>
     </div>
 
 
     <div class="cta-button">
 
         <button onclick="window.location.href = 'index.html'">
-        Back to Home
+            Back to Home
         </button>
 
     </div>
 
-    
+
     <div class="footer">
         <p>&copy; 2024 Couture Link. All rights reserved.</p>
         <p>Designed by Maya | Junior Developer</p>
-        </div>
+    </div>
 
-        <script src="submit.js"></script>
+    <script src="submit.js"></script>
 </body>
+
 </html>

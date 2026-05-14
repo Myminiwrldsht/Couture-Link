@@ -1,29 +1,116 @@
-body {
-    background: none;
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    
+/*  TABLET  */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2em;
+    }
+
+    .header p {
+        font-size: 1em;
+        margin-bottom: 20px;
+    }
+
+    nav a {
+        margin: 0 20px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .userInfo,
+    .outfitInspo,
+    .measurements {
+        max-width: 100%;
+        width: 100%;
+    }
 }
 
+/* MOBILE  */
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 1.5em;
+    }
 
+    .header p {
+        font-size: 0.9em;
+    }
 
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav a {
+        margin: 0;
+    }
+
+    .hero h2 {
+        font-size: 1.3em;
+        margin-top: 20px;
+    }
+
+    .hero p {
+        font-size: 0.9em;
+    }
+
+    .userInfo,
+    .outfitInspo,
+    .measurements {
+        padding: 15px;
+        border-radius: 12px;
+    }
+
+    .userInfo input,
+    .outfitInspo input,
+    .measurements input {
+        font-size: 0.9em;
+    }
+
+    textarea {
+        width: 90%;
+        font-size: 0.9em;
+    }
+
+    .confirmation {
+        margin: 20px 10px;
+        padding: 15px;
+    }
+
+    .confirmation h2 {
+        font-size: 1.2em;
+        margin-top: 20px;
+    }
+
+    .footer {
+        font-size: 0.85em;
+        margin-top: 20px;
+    }
+}
+
+body {
+    background: none;
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
 .header {
-    background-image: url('https://lens.usercontent.google.com/banana?agsi=CmdnbG9iYWw6OjAwMDA1NWNmZWM3MDAyNmQ6MDAwMDAwZWI6MTo0ODAzYzhkYTk0MDk5ZTVkOjAwMDA1NWNmZWM3MDAyNmQ6MDAwMDAyOGI2NmIwMzM2ODowMDA2NTE5ZTQ5M2YzOGNmEAIYAQ==');
-    background-size:cover;
+    background-image: url("https://lens.usercontent.google.com/banana?agsi=CmdnbG9iYWw6OjAwMDA1NWNmZWM3MDAyNmQ6MDAwMDAwZWI6MTo0ODAzYzhkYTk0MDk5ZTVkOjAwMDA1NWNmZWM3MDAyNmQ6MDAwMDAyOGI2NmIwMzM2ODowMDA2NTE5ZTQ5M2YzOGNmEAIYAQ==");
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     padding: 0px;
-    background-color:transparent;
+    background-color: transparent;
     padding: 0px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-
 }
 
-.header h1{
+.header h1 {
     font-family: serif;
     font-size: 3em;
     background: #4e7796;
@@ -31,95 +118,103 @@ body {
     background-clip: text;
     padding: 2px;
     margin: 1px;
-
 }
 
-.header p{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.header p {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     color: #e7e3f3;
     font-weight: 500;
     padding: 1px;
     margin-top: 20px;
     margin-bottom: 50px;
-    font-size:larger;
-
+    font-size: larger;
 }
 
-nav{
+nav {
     font-family: sans-serif;
-    font-weight:thick;
-    background-color:transparent;
+    font-weight: thick;
+    background-color: transparent;
     padding: 10px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-
-
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: #ffff;
     margin: 0 80px;
     padding: 5px 10px;
     border-radius: 5px;
-
 }
 
-nav a:hover{
+nav a:hover {
     background-color: #4e7796;
     color: #ffff;
     transition: background-color 0.3s ease;
 }
 
-
-.hero h2{
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+.hero h2 {
+    font-family:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
     text-align: center;
     color: #4e7796;
     margin-top: 50px;
 }
 
-.hero p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align:center;
+.hero p {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    color:#000000;
+    color: #000000;
 }
 
-.submission h2{
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+.submission h2 {
+    font-family:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
     text-align: center;
     color: #4e7796;
     margin-top: 50px;
 }
 
-.userInfo h3{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.userInfo h3 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     color: #042239;
     margin-top: 30px;
     text-align: center;
 }
 
-
-.userInfo{
-    background: rgba(43, 120, 235, 0.034); 
-    backdrop-filter: blur(12px); 
+.userInfo {
+    background: rgba(43, 120, 235, 0.034);
+    backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border: 1px solid rgba(255, 255, 255, 0.25);
-    border-radius: 16px; 
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2); 
-    padding: 30px; 
+    border-radius: 16px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+    padding: 30px;
     flex: 1;
     max-width: 450px;
     box-sizing: border-box;
-    
 }
 
 .userInfo label {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     color: #042239;
     display: block;
     margin-top: 20px;
@@ -133,23 +228,20 @@ nav a:hover{
     border-radius: 10px;
     box-sizing: border-box;
     outline-color: #042239;
-    
 }
 
-
 .outfitInspo h3 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     color: #042239;
     margin-top: 30px;
     text-align: center;
 }
 
 .outfitInspo label {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     color: #042239;
     display: block;
     margin-top: 20px;
-
 }
 
 .outfitInspo input {
@@ -160,49 +252,47 @@ nav a:hover{
     border-radius: 10px;
     box-sizing: border-box;
     outline-color: #042239;
-    
 }
 
-.outfitInspo{
-    background: rgba(43, 120, 235, 0.034); 
-    backdrop-filter: blur(12px); 
+.outfitInspo {
+    background: rgba(43, 120, 235, 0.034);
+    backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border: 1px solid rgba(255, 255, 255, 0.25);
-    border-radius: 16px; 
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2); 
-    padding: 30px; 
+    border-radius: 16px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+    padding: 30px;
     flex: 1;
     box-sizing: border-box;
     max-width: 450px;
 }
 
-
 .measurements h3 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     color: #042239;
     margin-top: 30px;
 }
 
-.measurements{
-    background: rgba(43, 120, 235, 0.034); 
-    backdrop-filter: blur(12px); 
+.measurements {
+    background: rgba(43, 120, 235, 0.034);
+    backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border: 1px solid rgba(255, 255, 255, 0.25);
-    border-radius: 16px; 
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2); 
-    padding: 30px; 
+    border-radius: 16px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+    padding: 30px;
     flex: 1;
     max-width: 450px;
     box-sizing: border-box;
 }
 
 .measurements label {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     color: #042239;
     display: block;
     margin-top: 20px;
-
 }
+
 .measurements input {
     width: 100%;
     padding: 10px;
@@ -211,35 +301,34 @@ nav a:hover{
     border-radius: 10px;
     box-sizing: border-box;
     outline-color: #042239;
-    
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: row;
-    justify-content: center;  
-    align-items: flex-start;  
-    gap: 24px;                
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
     padding: 40px 20px;
     width: 100%;
     box-sizing: border-box;
 }
 
-.additional h3{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.additional h3 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     color: #4e7796;
     margin-top: 30px;
     text-align: center;
 }
 
 textarea {
-    display: block;         
-    margin: 20px auto;       
-    width: 100%;             
-    max-width: 600px;       
-    height: 120px;          
-    resize: none;            
-    box-sizing: border-box;  
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 600px;
+    height: 120px;
+    resize: none;
+    box-sizing: border-box;
     border-radius: 16px;
     padding: 15px;
     font-family: inherit;
@@ -248,7 +337,7 @@ textarea {
 
 .submit-button {
     margin-top: 10px;
-    display:block;
+    display: block;
     text-align: center;
     margin: 30px auto;
     padding: 10px 20px;
@@ -264,18 +353,18 @@ textarea {
     font-size: 1em;
     border: 2px solid #4e7796;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    
 }
 
 button:hover {
     background-color: transparent;
     color: #4e7796;
     border: 2px solid #ffffff;
-    transition: background-color 0.1s ease, color 0.1s ease;
-    
+    transition:
+        background-color 0.1s ease,
+        color 0.1s ease;
 }
 
-.confirmation{
+.confirmation {
     display: none;
     background: rgba(43, 120, 235, 0.034);
     backdrop-filter: blur(12px);
@@ -287,30 +376,40 @@ button:hover {
     margin: 40px auto;
     max-width: 600px;
 }
-.confirmation h2{
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+.confirmation h2 {
+    font-family:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        "Open Sans",
+        "Helvetica Neue",
+        sans-serif;
     text-align: center;
     margin-top: 50px;
-    color:#4e7796;
+    color: #4e7796;
 }
 
-.confirmation p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.confirmation p {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
     display: block;
-    color:#000000;
-    
+    color: #000000;
 }
 
 .cta-button {
-    display:block;
+    display: block;
     text-align: center;
     margin: 30px auto;
     padding: 10px 20px;
-    
 }
 
 .cta-button button {
@@ -323,18 +422,18 @@ button:hover {
     font-size: 1em;
     border: 2px solid #4e7796;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    
 }
 
 .cta-button button:hover {
     background-color: transparent;
     color: #4e7796;
     border: 2px solid #ffffff;
-    transition: background-color 0.1s ease, color 0.1s ease;
-    
+    transition:
+        background-color 0.1s ease,
+        color 0.1s ease;
 }
 
-.footer{
+.footer {
     background-color: transparent;
     text-align: center;
     padding: 20px;

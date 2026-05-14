@@ -1,7 +1,5 @@
 /*  TABLET  */
 @media (max-width: 768px) {
-
-    
     .header h1 {
         font-size: 2em;
     }
@@ -11,28 +9,22 @@
         margin-bottom: 20px;
     }
 
-    
     nav a {
         margin: 0 20px;
     }
 
-    
     .orders {
         padding: 2rem 1rem;
     }
 
-    
     .ordersGrid {
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
     }
-
 }
 
-
+/*  MOBILE  */
 @media (max-width: 480px) {
-
-    
     .header h1 {
         font-size: 1.5em;
     }
@@ -41,7 +33,6 @@
         font-size: 0.9em;
     }
 
-    
     nav {
         display: flex;
         flex-direction: column;
@@ -52,7 +43,6 @@
         margin: 0;
     }
 
-    
     .orders {
         padding: 1rem;
     }
@@ -62,12 +52,10 @@
         font-size: 1.3em;
     }
 
-    
     .ordersGrid {
         grid-template-columns: 1fr;
     }
 
-    
     .orderCard {
         padding: 1rem;
         border-radius: 12px;
@@ -77,46 +65,37 @@
         font-size: 1em;
     }
 
-    
     .noOrder {
         padding: 1.5rem 1rem;
     }
 
-    
     .footer {
         font-size: 0.85em;
         margin-top: 20px;
     }
-
 }
-
 
 body {
     background: none;
-    font-family: 'Arial', sans-serif;
+    font-family: "Arial", sans-serif;
     margin: 0;
     padding: 0;
-    
 }
 
-
-
-
 .header {
-    background-image: url('https://lens.usercontent.google.com/banana?agsi=CmdnbG9iYWw6OjAwMDA1NWNmZWM3MDAyNmQ6MDAwMDAwZWI6MTo0ODAzYzhkYTk0MDk5ZTVkOjAwMDA1NWNmZWM3MDAyNmQ6MDAwMDAyOGI2NmIwMzM2ODowMDA2NTE5ZTQ5M2YzOGNmEAIYAQ==');
-    background-size:cover;
+    background-image: url("https://lens.usercontent.google.com/banana?agsi=CmdnbG9iYWw6OjAwMDA1NWNmZWM3MDAyNmQ6MDAwMDAwZWI6MTo0ODAzYzhkYTk0MDk5ZTVkOjAwMDA1NWNmZWM3MDAyNmQ6MDAwMDAyOGI2NmIwMzM2ODowMDA2NTE5ZTQ5M2YzOGNmEAIYAQ==");
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     padding: 0px;
-    background-color:transparent;
+    background-color: transparent;
     padding: 0px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-
 }
 
-.header h1{
+.header h1 {
     font-family: serif;
     font-size: 3em;
     background: #4e7796;
@@ -124,69 +103,67 @@ body {
     background-clip: text;
     padding: 2px;
     margin: 1px;
-
 }
 
-.header p{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.header p {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     color: #e7e3f3;
     font-weight: 500;
     padding: 1px;
     margin-top: 20px;
     margin-bottom: 50px;
-    font-size:larger;
-
+    font-size: larger;
 }
 
-nav{
+nav {
     font-family: sans-serif;
-    font-weight:thick;
-    background-color:transparent;
+    font-weight: thick;
+    background-color: transparent;
     padding: 10px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-
-
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: #ffff;
     margin: 0 80px;
     padding: 5px 10px;
     border-radius: 5px;
-
 }
 
-nav a:hover{
+nav a:hover {
     background-color: #4e7796;
     color: #ffff;
     transition: background-color 0.3s ease;
 }
-
-
-
 
 .orders {
     padding: 4rem 2rem;
     background-color: #ffffff;
 }
 
-.orders h2{
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+.orders h2 {
+    font-family:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
     text-align: center;
     color: #4e7796;
     margin-top: 50px;
-    
 }
 
-
-.orders p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align:center;
+.orders p {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
     margin: 20px auto;
-    color:#000000;
+    color: #000000;
     max-width: 600px;
     display: block;
 }
@@ -206,7 +183,6 @@ nav a:hover{
     margin-bottom: 0.8rem;
     line-height: 1.6;
     text-align: left;
-    
 }
 
 .orderCard {
@@ -220,16 +196,17 @@ nav a:hover{
 .noOrder {
     text-align: center;
     padding: 3rem 2rem;
-    display:none;
+    display: none;
 }
 
 .noOrderButton {
     margin-top: 10px;
-    display:block;
+    display: block;
     text-align: center;
     margin: 30px auto;
     padding: 10px 20px;
 }
+
 .noOrderButton button {
     background-color: #4e7796;
     color: #fff;
@@ -246,10 +223,12 @@ nav a:hover{
     background-color: transparent;
     color: #4e7796;
     border: 2px solid #ffffff;
-    transition: background-color 0.1s ease, color 0.1s ease;
+    transition:
+        background-color 0.1s ease,
+        color 0.1s ease;
 }
 
-.footer{
+.footer {
     background-color: transparent;
     text-align: center;
     padding: 20px;
@@ -257,6 +236,3 @@ nav a:hover{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
-
-
-
