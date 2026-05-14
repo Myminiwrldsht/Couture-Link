@@ -75,11 +75,11 @@ This project was built as a final project for a Software Development Foundations
 
 ## Future Improvements
 
-- [ ] Styled inline error messages per form field.
-- [ ] Order status update functionality.
-- [ ] Delete individual orders.
-- [ ] Filter orders by status.
-- [ ] Backend integration to persist data beyond the browser.
+- Styled inline error messages per form field.
+- Order status update functionality.
+- Delete individual orders.
+- Filter orders by status.
+- Backend integration to persist data beyond the browser.
 
 ---
 
