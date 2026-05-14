@@ -105,7 +105,7 @@ Couture-Link/
 
 - Name:Lakeisha Maya.
 - Location:Nairobi, Kenya.
-- Role:Junior Developer | [@Myminiwrldsht](https://github.com/Myminiwrldsht)
+- Role:Junior Developer.
 
 ---
 
