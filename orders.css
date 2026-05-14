@@ -1,3 +1,96 @@
+/*  TABLET  */
+@media (max-width: 768px) {
+
+    
+    .header h1 {
+        font-size: 2em;
+    }
+
+    .header p {
+        font-size: 1em;
+        margin-bottom: 20px;
+    }
+
+    
+    nav a {
+        margin: 0 20px;
+    }
+
+    
+    .orders {
+        padding: 2rem 1rem;
+    }
+
+    
+    .ordersGrid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+
+    
+    .header h1 {
+        font-size: 1.5em;
+    }
+
+    .header p {
+        font-size: 0.9em;
+    }
+
+    
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav a {
+        margin: 0;
+    }
+
+    
+    .orders {
+        padding: 1rem;
+    }
+
+    .orders h2 {
+        margin-top: 20px;
+        font-size: 1.3em;
+    }
+
+    
+    .ordersGrid {
+        grid-template-columns: 1fr;
+    }
+
+    
+    .orderCard {
+        padding: 1rem;
+        border-radius: 12px;
+    }
+
+    .orderCard h3 {
+        font-size: 1em;
+    }
+
+    
+    .noOrder {
+        padding: 1.5rem 1rem;
+    }
+
+    
+    .footer {
+        font-size: 0.85em;
+        margin-top: 20px;
+    }
+
+}
+
+
 body {
     background: none;
     font-family: 'Arial', sans-serif;
