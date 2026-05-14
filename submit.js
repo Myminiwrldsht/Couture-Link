@@ -21,6 +21,14 @@ document.getElementById("submissionForm").addEventListener("submit", function(ev
     let hips=document.getElementById("hips").value.trim();
     let height=document.getElementById("height").value.trim();
 
+
+    //VALIDATION: checks if the required fields are filled out, and if not, shows an alert to the user and stops the submission process.
+    if (name === "" || email === "" || phone === "" || inspo === "" || style === "" || occasion === "" || color === "" || fabric === "" || bust === "" || waist === "" || hips === "" || height === "" ) {
+
+        alert("Please fill in all required fields before submitting the form.");
+        return; // Stops the function from continuing, so the form won't be submitted.
+    }
+
     console.log("Form submitted with values:");
     console.log("Name:", name);
     console.log("Email:", email);
