@@ -44,6 +44,8 @@ document.getElementById("submissionForm").addEventListener("submit", function(ev
     console.log("Height:", height);
 
 
-    
+    //If everything is valid, proceed with submission by displaying a confirmation message to the user.
+    document.getElementById("submissionForm").style.display = "none"; // Hides the form after submission.
+    document.querySelector(".confirmation").style.display = "block"; // Shows a confirmation message to the user.
 }); 
 
