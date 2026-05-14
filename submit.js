@@ -5,6 +5,11 @@ document.getElementById("submissionForm").addEventListener("submit", function(ev
     //Prevents the browser's default form submission, lets JS habdle it.
     event.preventDefault()
     
+
+    //Retrieves input values from the form, trims accidental spaces before/after texts, and stores them in variables for later use.
+    // .value is used to get the current value that the user typed in.
+    let name=document.getElementById("name").value.trim();
+    
     
 }); 
 
