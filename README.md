@@ -36,10 +36,10 @@ This project was built as a final project for a Software Development Foundations
 
 - **Custom Order Form**: collect personal info, outfit inspirations, style preferences, and body measurements.
 - **Form Validation**: JavaScript validation checks all fields before submission.
--**localStorage**: submitted orders are saved to the browser and retrieved on the orders page.
--**Dynamic Order Cards**: orders are generated and displayed dynamically using JavaScript DOM manipulation.
--**Responsive Design**: media queries for tablet (768px) and mobile (480px) screens.
--**Glassmorphism UI**: modern frosted glass styling on form sections and confirmation message.
+- **localStorage**: submitted orders are saved to the browser and retrieved on the orders page.
+- **Dynamic Order Cards**: orders are generated and displayed dynamically using JavaScript DOM manipulation.
+- **Responsive Design**: media queries for tablet (768px) and mobile (480px) screens.
+- **Glassmorphism UI**: modern frosted glass styling on form sections and confirmation message.
 
 ---
 
@@ -68,8 +68,8 @@ This project was built as a final project for a Software Development Foundations
 
 ## Known Bugs
 
--**Error messages**: inline field-level error messages are not fully implemented; validation currently uses a browser `alert()` instead of styled error messages per field.
--**Order status**: order progress (Pending → In Progress → Completed) cannot currently be updated by the user; all orders display as "Pending" by default.
+- **Error messages**: inline field-level error messages are not fully implemented; validation currently uses a browser `alert()` instead of styled error messages per field.
+- **Order status**: order progress (Pending → In Progress → Completed) cannot currently be updated by the user; all orders display as "Pending" by default.
 
 ---
 
